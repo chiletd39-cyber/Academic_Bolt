@@ -1,0 +1,63 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "search": "Search",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "loadMore": "Load more",
+    "noResults": "No results",
+    "reload": "Reload",
+    "home": "Home",
+    "error": "Something went wrong",
+    "offline": "You are offline",
+    "online": "Back online",
+    "language": "Language"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "adminCode": "Admin security code",
+    "role": {
+      "student": "Student",
+      "teacher": "Teacher",
+      "admin": "Admin",
+      "parent": "Parent"
+    }
+  },
+  "dashboard": {
+    "home": "Dashboard",
+    "notifications": "Notifications",
+    "profileSettings": "Profile Settings",
+    "helpSupport": "Help & Support",
+    "switchClass": "Switch Class",
+    "currentClass": "Current Class",
+    "newClass": "New Class",
+    "noNewNotifications": "No new notifications"
+  },
+  "exam": {
+    "timeRemaining": "Time remaining",
+    "submit": "Submit exam",
+    "warning": "Warning",
+    "fullscreenRequired": "Fullscreen is required",
+    "permissionsRequired": "Camera, microphone and screen access are required"
+  },
+  "privacy": {
+    "title": "Privacy & data",
+    "download": "Download my data",
+    "deleteAccount": "Delete my account"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789462807355,
+      "tag": "0000_grading_engine_idempotent_upserts",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789799747932,
+      "tag": "0001_broadcast_and_meeting_lifecycle",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789980369276,
+      "tag": "0002_harden_meeting_identity_and_admin_code_volatility",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789991226558,
+      "tag": "0003_restrict_parent_messages_recipients",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1790066997822,
+      "tag": "0004_server_authoritative_exam_deadline",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1790067766345,
+      "tag": "0005_exam_session_no_reactivation",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1791998181569,
+      "tag": "0006_exam_functions_digest_search_path",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1791998199533,
+      "tag": "0007_get_exam_questions_volatile",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1792050332389,
+      "tag": "0008_migration",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1792305457994,
+      "tag": "0009_livekit_speaker_limit_guard",
+      "breakpoints": true
+    }
+  ]
+}

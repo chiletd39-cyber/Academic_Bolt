@@ -1,0 +1,22 @@
+project_id = "jrvogoxmtdpjawixylaf"
+
+[functions.send-notification]
+verify_jwt = true
+
+[functions.parse-student-list]
+verify_jwt = true
+
+[functions.send-sms-notification]
+verify_jwt = true
+
+[functions.send-violation-email]
+verify_jwt = false
+
+[functions.delete-account]
+verify_jwt = true
+
+[functions.export-my-data]
+verify_jwt = true
+
+[functions.retention-sweep]
+verify_jwt = false

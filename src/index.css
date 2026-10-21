@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Sky Blue & Soft Yellow Theme - World Mission High School */
+    --background: 210 50% 98%;
+    --foreground: 222 47% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 15%;
+
+    /* Primary - Navy Blue from school logo */
+    --primary: 222 47% 25%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Sky Blue */
+    --secondary: 207 73% 85%;
+    --secondary-foreground: 222 47% 20%;
+
+    /* Muted - Light gray-blue */
+    --muted: 210 40% 94%;
+    --muted-foreground: 222 20% 45%;
+
+    /* Accent - Soft Yellow */
+    --accent: 45 90% 72%;
+    --accent-foreground: 222 47% 15%;
+
+    /* Warning/Highlight - Golden Yellow */
+    --warning: 45 93% 58%;
+    --warning-foreground: 222 47% 15%;
+
+    /* Success - Teal */
+    --success: 172 66% 40%;
+    --success-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 40% 88%;
+    --input: 210 40% 90%;
+    --ring: 222 47% 35%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar - Navy theme */
+    --sidebar-background: 222 47% 22%;
+    --sidebar-foreground: 210 40% 92%;
+    --sidebar-primary: 207 73% 70%;
+    --sidebar-primary-foreground: 222 47% 15%;
+    --sidebar-accent: 222 47% 28%;
+    --sidebar-accent-foreground: 210 40% 95%;
+    --sidebar-border: 222 40% 30%;
+    --sidebar-ring: 207 73% 70%;
+
+    /* Custom gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(222 47% 25%), hsl(222 47% 35%));
+    --gradient-secondary: linear-gradient(135deg, hsl(207 73% 85%), hsl(207 73% 75%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 90% 72%), hsl(45 93% 58%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 50% 98%));
+  }
+
+  .dark {
+    --background: 222 47% 8%;
+    --foreground: 210 40% 95%;
+
+    --card: 222 47% 12%;
+    --card-foreground: 210 40% 95%;
+
+    --popover: 222 47% 12%;
+    --popover-foreground: 210 40% 95%;
+
+    --primary: 207 73% 65%;
+    --primary-foreground: 222 47% 10%;
+
+    --secondary: 222 47% 20%;
+    --secondary-foreground: 210 40% 92%;
+
+    --muted: 222 47% 18%;
+    --muted-foreground: 210 30% 60%;
+
+    --accent: 45 80% 55%;
+    --accent-foreground: 222 47% 10%;
+
+    --warning: 45 93% 50%;
+    --warning-foreground: 222 47% 10%;
+
+    --success: 172 60% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 222 40% 22%;
+    --input: 222 40% 22%;
+    --ring: 207 73% 55%;
+
+    --sidebar-background: 222 47% 10%;
+    --sidebar-foreground: 210 40% 90%;
+    --sidebar-primary: 207 73% 60%;
+    --sidebar-primary-foreground: 222 47% 10%;
+    --sidebar-accent: 222 47% 16%;
+    --sidebar-accent-foreground: 210 40% 95%;
+    --sidebar-border: 222 40% 18%;
+    --sidebar-ring: 207 73% 60%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(222 47% 18%), hsl(222 47% 25%));
+    --gradient-secondary: linear-gradient(135deg, hsl(207 73% 35%), hsl(207 73% 45%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 80% 45%), hsl(45 80% 55%));
+    --gradient-card: linear-gradient(180deg, hsl(222 47% 12%), hsl(222 47% 10%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  .safe-area-inset {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only fixed top-2 left-2 z-[100] bg-background text-foreground border border-border rounded-md px-3 py-2 shadow-md;
+  }
+}

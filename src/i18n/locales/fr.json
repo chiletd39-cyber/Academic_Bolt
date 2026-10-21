@@ -1,0 +1,63 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "submit": "Envoyer",
+    "search": "Rechercher",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "yes": "Oui",
+    "no": "Non",
+    "loadMore": "Charger plus",
+    "noResults": "Aucun résultat",
+    "reload": "Recharger",
+    "home": "Accueil",
+    "error": "Une erreur s'est produite",
+    "offline": "Vous êtes hors ligne",
+    "online": "De retour en ligne",
+    "language": "Langue"
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "signUp": "S'inscrire",
+    "email": "Courriel",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "adminCode": "Code de sécurité admin",
+    "role": {
+      "student": "Étudiant",
+      "teacher": "Enseignant",
+      "admin": "Administrateur",
+      "parent": "Parent"
+    }
+  },
+  "dashboard": {
+    "home": "Tableau de bord",
+    "notifications": "Notifications",
+    "profileSettings": "Paramètres du profil",
+    "helpSupport": "Aide et support",
+    "switchClass": "Changer de classe",
+    "currentClass": "Classe actuelle",
+    "newClass": "Nouvelle classe",
+    "noNewNotifications": "Aucune nouvelle notification"
+  },
+  "exam": {
+    "timeRemaining": "Temps restant",
+    "submit": "Soumettre l'examen",
+    "warning": "Avertissement",
+    "fullscreenRequired": "Le mode plein écran est requis",
+    "permissionsRequired": "L'accès à la caméra, au microphone et à l'écran est requis"
+  },
+  "privacy": {
+    "title": "Confidentialité et données",
+    "download": "Télécharger mes données",
+    "deleteAccount": "Supprimer mon compte"
+  }
+}

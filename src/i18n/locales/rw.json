@@ -1,0 +1,63 @@
+{
+  "common": {
+    "loading": "Biratunganywa...",
+    "cancel": "Kuraguza",
+    "save": "Bika",
+    "delete": "Siba",
+    "edit": "Hindura",
+    "close": "Funga",
+    "confirm": "Emeza",
+    "submit": "Ohereza",
+    "search": "Shakisha",
+    "back": "Subira inyuma",
+    "next": "Ibikurikira",
+    "previous": "Ibibanziriza",
+    "yes": "Yego",
+    "no": "Oya",
+    "loadMore": "Ongera urebe",
+    "noResults": "Nta gisubizo",
+    "reload": "Ongera upakiruke",
+    "home": "Ahabanza",
+    "error": "Habaye ikibazo",
+    "offline": "Ntabwo uri kuri interineti",
+    "online": "Wagarutse kuri interineti",
+    "language": "Ururimi"
+  },
+  "auth": {
+    "signIn": "Injira",
+    "signOut": "Sohoka",
+    "signUp": "Iyandikishe",
+    "email": "Imeyili",
+    "password": "Ijambo ryibanga",
+    "forgotPassword": "Wibagiwe ijambo ryibanga?",
+    "adminCode": "Kode y'umuyobozi",
+    "role": {
+      "student": "Umunyeshuri",
+      "teacher": "Umwarimu",
+      "admin": "Umuyobozi",
+      "parent": "Umubyeyi"
+    }
+  },
+  "dashboard": {
+    "home": "Ikibaho",
+    "notifications": "Amatangazo",
+    "profileSettings": "Igenamiterere rya konti",
+    "helpSupport": "Ubufasha",
+    "switchClass": "Hindura ishuri",
+    "currentClass": "Ishuri rya none",
+    "newClass": "Ishuri rishya",
+    "noNewNotifications": "Nta matangazo mashya"
+  },
+  "exam": {
+    "timeRemaining": "Igihe gisigaye",
+    "submit": "Ohereza ikizamini",
+    "warning": "Iburira",
+    "fullscreenRequired": "Ecran yuzuye irakenewe",
+    "permissionsRequired": "Kamera, mikoro na ecran birakenewe"
+  },
+  "privacy": {
+    "title": "Ibanga n'amakuru",
+    "download": "Kuramo amakuru yanjye",
+    "deleteAccount": "Siba konti yanjye"
+  }
+}
